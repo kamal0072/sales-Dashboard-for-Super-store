@@ -244,3 +244,11 @@ st.download_button(
     file_name="sales_data.csv",
     mime="text/csv"
 )
+
+st.sidebar.subheader("Download CSV")
+st.sidebar.download_button(
+    label="Download CSV",
+    data=csv,
+    file_name="sales_data.csv",
+    mime="text/csv"
+)
